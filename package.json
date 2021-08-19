@@ -1,0 +1,23 @@
+{
+    "name": "product-cli",
+    "version": "1.0.0",
+    "description": "Custom node mongo based cli",
+    "main": "index.js",
+    "bin": "./index.js",
+    "preferGlobal": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node",
+        "mongo",
+        "cli"
+    ],
+    "author": "Anish Agarwal",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^8.1.0",
+        "inquirer": "^8.1.2",
+        "mongoose": "^5.13.7"
+    }
+}
